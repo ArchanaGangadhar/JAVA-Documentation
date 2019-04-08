@@ -11,3 +11,9 @@ This has examples and important pointers regarding JAVA basic concepts
 - [Concurrency]
 - [Regular Expressions]
 - [Collections and Maps]
+
+Other Miscellaneous Pointers:
+
+##### Object
+
+##### Final 
