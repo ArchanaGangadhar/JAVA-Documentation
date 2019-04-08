@@ -89,3 +89,7 @@ we would get a compile-time error because obj is not known to the compiler to be
 MountainBike myBike = (MountainBike)obj;
 ```
 This cast inserts a runtime check that obj is assigned a MountainBike so that the compiler can safely assume that obj is a MountainBike. If obj is not a MountainBike at runtime, an exception will be thrown.
+
+#### Poymorphism (Virtual Method Invocation)
+
+[Refer the example here](polymorphism.java)
