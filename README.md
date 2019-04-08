@@ -10,3 +10,4 @@ This has examples and important pointers regarding JAVA basic concepts
 - [Basic I\O]
 - [Concurrency]
 - [Regular Expressions]
+- [Collections and Maps]
