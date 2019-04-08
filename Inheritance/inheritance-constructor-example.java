@@ -43,7 +43,7 @@ class MountainBike extends Bicycle {
     public MountainBike(int startHeight,
                         int startSpeed,
                         int startGear) {
-        super(startSpeed, startGear);
+        super(startSpeed, startGear); //Needs to be the first statement in the constructor
         seatHeight = startHeight;
         System.out.println("MountainBike Constructor with three agruements is called");
     }   
