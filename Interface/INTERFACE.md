@@ -54,3 +54,5 @@ When you extend an interface that contains a default method, you can do the foll
 - Redeclare the default method, which makes it abstract.
 - Redefine the default method, which overrides it.
 
+#### Common methods in multiple inheritance for a class
+ - [Refer example here](interface-common-method-multinterface)
