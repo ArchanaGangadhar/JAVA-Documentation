@@ -37,6 +37,6 @@ public class MountainBike extends Bicycle {
 }
 ```
 
-- If not parent class constructor is called in subclass's constructor, the default constructor of Parent class is called in the subclass's constructor.
+- If parent class constructor is not called in subclass's constructor, the default constructor of Parent class is called in the subclass's constructor.
 
-[Refer example here](inheritance-constructor-example.java)
+    [Refer example here](inheritance-constructor-example.java)
