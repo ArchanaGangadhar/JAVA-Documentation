@@ -1,0 +1,34 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        TestInterface ti = new TestInterface();
+        ti.testCommonMethod(); // works good since its just a signature in two interfaces
+        
+        // below method gives error, when not implemented in TestInterface class, since compiler doesn't know
+        // which interface's defination to use
+        ti.testCommonDefaultMethod(); 
+     }
+}
+
+interface Inter1{
+ void testCommonMethod();
+ default void testCommonDefaultMethod(){
+     System.out.println("Inter1 testCommonMethod method \n");
+ };
+}
+interface Inter2{
+    void testCommonMethod();
+   default void testCommonDefaultMethod(){
+     System.out.println("Inter2 testCommonMethod method \n");
+ };
+}
+class TestInterface implements Inter1,Inter2{
+    public void testCommonMethod(){
+        System.out.println("TestInterface testCommonMethod method \n");
+    }
+    /*
+    public void testCommonDefaultMethod(){
+     System.out.println("TestInterface testCommonMethod method \n");
+    };
+    */
+}
