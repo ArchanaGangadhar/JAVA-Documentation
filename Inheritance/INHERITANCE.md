@@ -52,5 +52,6 @@ public class MountainBike extends Bicycle {
 - You can write a new static method in the subclass that has the same signature as the one in the superclass, thus hiding it.
 - You can declare new methods in the subclass that are not in the superclass.
 - You can write a subclass constructor that invokes the constructor of the superclass, either implicitly or by using the keyword super.
+- Subclasses method cannot be static, if the parent class method is not static.
 
     [Refer example here](inheritance-subclass-example.java)
