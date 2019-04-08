@@ -4,9 +4,9 @@
 When a class inherits from the parent class, it inherits parent classes' states and behavior, i.e. it's fields and methods.
 
 - A class can inherit from only one class, wheras it can implement multiple interfaces
-  ```
+```
     class TestClass extends SuperClass implements Interface1, Interface2{}
-  ```
+```
   
 - Subclass inherits all the public and protected members from parent class, no matter which package the subclass is in
 
