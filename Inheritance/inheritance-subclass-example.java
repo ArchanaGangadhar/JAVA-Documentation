@@ -5,18 +5,26 @@ public class HelloWorld{
         bike.accelerate();  //MountainBike accelerate is called
         bike.deccelerate(); //Bicycle deccelerate is called
         
+        System.out.println(bike.color);
+        // System.out.println(bike.styleNum);  ///gives an error since private
+        
          System.out.println("\n");
         
         MountainBike bike2 = new MountainBike();
         bike2.accelerate();  //MountainBike accelerate is called
         bike2.deccelerate(); //MountainBike deccelerate is called
         
+        System.out.println(bike2.color);
+        // System.out.println(bike2.styleNum); ///gives an error since private
+        
      }
 }
-
 class Bicycle {
     public int gear;
     public int speed;
+    
+    protected int color = 0;
+    private int styleNum = 120;
     
     public void accelerate()
     {
@@ -34,7 +42,6 @@ class Bicycle {
     }
     
 }
-
 class MountainBike extends Bicycle {
         
     // the MountainBike subclass adds one field
