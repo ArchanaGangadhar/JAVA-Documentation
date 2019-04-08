@@ -57,6 +57,11 @@ public class MountainBike extends Bicycle {
 
     [Refer example here](inheritance-subclass-example.java)
     
+#### The distinction between hiding a static method and overriding an instance method has important implications:
+
+- The version of the overridden instance method that gets invoked is the one in the subclass.
+- The version of the hidden static method that gets invoked depends on whether it is invoked from the superclass or the subclass.
+    
  #### Casting Objects
  
 We have seen that an object is of the data type of the class from which it was instantiated. For example, if we write
