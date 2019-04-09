@@ -4,7 +4,7 @@
 Interface is like a contract for a class which implements it. 
 
 - Interface provides signature for the methods and fields.
-- A class which implements an interface, should define all the methods declared in the interface, which are not default or static
+- A class which implements an interface, MUST define all the methods declared in the interface, which are not defined.
 - When a method is defined in the interface, it needs to be either default or static
 - All fields and methods of the interface are public
 - All fields are public static and final
@@ -43,7 +43,7 @@ An empty interface with no methods or fields in it is used for the purpose of de
 
 An interface needs to be throughly planned before creation, since it is challenging to edit it, once it is implemented by multiple classes. However if needs arises to modify interface, it can be done as follows:
 
-- Create a new interface out of existing interface, by inplementing exiting interface in the new interface. And the classes if they want to adapt the change, can refer\implement te new interface instead.
+- Create a new interface out of existing interface, by inplementing exiting interface in the new interface. And the classes if they want to adapt the change, can refer\implement the new interface instead.
 - If a new method needs to be added to the interface,then you can define it within the interface, as either static or default. This way, the classes implementing this interface need not have to define the new method.
 
 #### Extending interfaces that contain default methods
