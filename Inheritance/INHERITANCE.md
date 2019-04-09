@@ -3,7 +3,7 @@
 
 When a class inherits from the parent class, it inherits parent classes' states and behavior, i.e. it's fields and methods.
 
-- A class can inherit from only one class, whereas it can implement multiple interface.
+- A class can inherit from only one class, whereas it can implement multiple interfaces.
 ```
     class TestClass extends SuperClass implements Interface1, Interface2{}
 ```
@@ -53,7 +53,7 @@ public class MountainBike extends Bicycle {
 - You can declare new methods in the subclass that are not in the superclass.
 - You can write a subclass constructor that invokes the constructor of the superclass, either implicitly or by using the keyword super.
 - Subclasses method cannot be static, if the parent class method is not static.
-- Subclass doesnt inherit private memeber of the parent class.
+- Subclass doesnt inherit private memebers of the parent class.
 
     [Refer example here](inheritance-subclass-example.java)
     
