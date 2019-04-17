@@ -15,7 +15,7 @@ This has examples and important pointers regarding JAVA basic concepts
 ### Other Miscellaneous Pointers:
 
 ##### Design Patterns
-- [Singleton Pattern](DesignPatterns/SINGLETON.md)
+- [Singleton Pattern](https://springframework.guru/gang-of-four-design-patterns/singleton-design-pattern/)
 
 ##### Object
 
