@@ -14,6 +14,9 @@ This has examples and important pointers regarding JAVA basic concepts
 
 ### Other Miscellaneous Pointers:
 
+##### Design Patterns
+- [Singleton Pattern](DesignPatterns/SINGLETON.md)
+
 ##### Object
 
 ##### Final 
