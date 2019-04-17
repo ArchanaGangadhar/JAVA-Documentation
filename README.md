@@ -27,7 +27,7 @@ This has examples and important pointers regarding JAVA basic concepts
 
 - Servlet: These are java programs that process the request obtained from the web server, process the request, and send the response back to the web server. [Click here for more info](https://www.geeksforgeeks.org/introduction-java-servlets/)
 
-- JSP: (Java server pages) 
+- JSP: (Java server pages)  A JSP page is a text-based document that contains two types of text: static data (which can be expressed in any text-based format such as HTML, WML, and XML) and JSP elements, which determine how the page constructs dynamic content.
 
 - Apache Tomcat: It is a web server and a servlet/JSP container. 
 
@@ -43,9 +43,21 @@ This has examples and important pointers regarding JAVA basic concepts
   5)  java.awt: Contain classes for implementing the components for graphical user interfaces (like button , ;menus etc).
   6)  java.net: Contain classes for supporting networking operations.
   
-- Classpath: 
+- User defined package: These are the packages that are defined by the user. First we create a directory myPackage (name should be same as the name of the package). Then create the MyClass inside the directory with the first statement being the package names.
 
+- Classpath: It is an environment variable, which lets know JVM where to find the classes from a package. The directories and jars path is stored in classpath variable. Example: Let’s say the above package resides in the directory dir. The complete path of the Menu class file would be dir/org/company/Menu. We’ll specify only the directory dir in our classpath variable, as rest information regarding the path is provided by the import statements.
 
+- JDK: JDK (Java developmnet kit) is the software development environment used to develop JAVA applications. Along with JRE, it includes Java interpretor, compiler, and other development tools. 
+
+- JRE: Java runtime environment is where your java apps run. It consists of core classes, JVM and support files.
+
+- JVM: Java Virtual Machine is responsible for executing your java program line by line and is also known as interpretor
+
+- Difference between applet and application: applet is a small Java program which is added in the html page and runs on the browser. Application is a stand alone Java program which runs as an application. Both need JVM.
+
+- jar files: The .jar files contain libraries, resources and accessories files like property files. It is basically a zip file.
+
+- war files: The war file contains the web application that can be deployed on any servlet/jsp container. The .war file contains jsp, html, javascript and other files necessary for the development of web applications.
 
 
 
