@@ -17,3 +17,20 @@ Key concepts:
 
 
 - [Spring Boot - JPA - MYSQL - Hibernate](https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/)
+
+- Spring Boot vs Spring framework vs Spring MVC
+
+- Spring Security - Authentication and intercepting JWT in each HTTP call
+
+- Spring DB JPA
+
+- Spring Rest Template
+
+- Spring Mockito
+
+- Jacoco, Cobertura
+
+- JUnit
+
+- Swagger
+
