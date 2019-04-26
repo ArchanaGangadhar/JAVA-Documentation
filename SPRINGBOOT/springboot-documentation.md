@@ -14,3 +14,6 @@ Key concepts:
 
 - Layers and Classes of microservices
 ![Layers and Classes of microservices](../microservices-layers-classes.png)
+
+
+- [Spring Boot - JPA - MYSQL - Hibernate](https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/)
