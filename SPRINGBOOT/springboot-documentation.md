@@ -12,4 +12,5 @@ Key concepts:
       - Easy to deploy: we can deploy only the microservice which has a new update
       - Easily Reusable and replacable of each service
 
-![Layers and Classes of microservices](/Screen Shot 2019-04-25 at 7.38.00 PM.png)
+- Layers and Classes of microservices
+![Layers and Classes of microservices](../microservices-layers-classes.png)
