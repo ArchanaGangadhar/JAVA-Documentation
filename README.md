@@ -11,7 +11,7 @@ This has examples and important pointers regarding JAVA basic concepts
 - [Concurrency]
 - [Regular Expressions]
 - [Collections and Maps]
-- [Datastructures and Algorithms] (DataStructuresAlgorithms/DSALG.md)
+- [Datastructures and Algorithms](DataStructuresAlgorithms/DSALG.md)
 
 ### Other Miscellaneous Pointers:
 
